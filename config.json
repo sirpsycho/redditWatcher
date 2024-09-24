@@ -1,0 +1,13 @@
+{
+    "discord_webhook_url": "<CHANGE_ME>",
+    "log_to_file_enabled": true,
+    "subreddit_monitoring_configs": [
+        {
+            "subreddit_name": "<CHANGE_ME>",
+            "search_strings": ["<CHANGE_ME>"],
+            "search_post_titles": true,
+            "search_post_descriptions": true,
+            "case_sensitive": false
+        }
+    ]
+}
