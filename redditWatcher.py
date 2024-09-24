@@ -41,7 +41,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger()
 logger.info("Start")
-raise RuntimeError('test')
 
 # read a local file of reddit post IDs that we've already processed
 with open(FILE_CHECKED_IDS, 'r') as f:
