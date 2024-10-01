@@ -59,6 +59,12 @@ This step will be different depending on the OS you're running.
 
 Create a [cron job](https://devhints.io/cron) to execute the script
 
+1. First, take note of the directory where you saved the script (run `pwd`)
+2. Open the cron file with `crontab -e`
+3. Add this line at the end of the file, making sure to swap out `<SCRIPT_DIRECTORY>` with the directory from step 1 (ex `/home/youruser/redditWatcher`)
+   * `*/5 * * * * cd <SCRIPT_DIRECTORY> && python redditWatcher.py`
+   * The above example will execute the script once every 5 minutes
+
 #### Windows
 
 Prerequisites:
